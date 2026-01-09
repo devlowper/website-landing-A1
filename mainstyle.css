@@ -1,0 +1,381 @@
+
+
+*{
+    margin: 0px;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Home page Backgound */
+.header-info {
+    background: url('assets/hero-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    
+
+
+
+/* navigation bar */
+nav{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+
+} 
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap:32px;
+}
+
+nav a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #469165;
+    opacity: 0.8;
+    font-weight: 700;  
+}
+
+
+/* share-button */
+.home-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    color: white;
+    background: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 12.5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgba(255, 255, 255);
+    color: #001931;
+    border: 1px solid #469165;
+    box-shadow: 0 4px 12px rgba(81, 150, 107, 0.3);
+
+}
+
+
+
+
+/* home page button 1 */
+.btn-1{
+    color: white;
+    background:none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 600;
+     margin: 16px;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+     gap: 10px;
+     cursor: pointer;
+}
+
+.btn-1:hover{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(81, 150, 107, 0.3);
+}
+
+
+/* Home page button 2 */
+.btn-2{
+    color: #469165;
+    background:rgb(255, 255, 255);
+    border: none;
+    border-radius: 1000px;
+    padding: 9px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.btn-2:hover{
+    border: 1px solid #469165;
+    color: #001931;
+    box-shadow: 0 4px 12px rgba(81, 150, 107, 0.3) ;
+    font-weight: 500;
+
+}
+
+/* 1st Scetion Home Page Header Content */
+.header-info h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.green-text{
+    color: #30B868;
+}
+.header-info p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    text-align: center ;
+    margin-bottom: 32px;
+}
+
+
+
+/* 2nd section  Notes don't fail*/
+
+.note-container{
+    background: #F7F6F2;
+    padding-top: 60px;
+    padding-left: 120px ;
+    padding-right: 120px;
+
+    width: 100%;
+    min-height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.note-box{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;  
+}
+
+.note-card{
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px 8px 0 0;
+    background: #ffffff;
+    max-width: 322px;
+    padding-left: 18px;
+    padding-right: 18px;
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.note-card:hover{
+    border: 2px solid #469165;
+    background: #e9fdf2;
+    box-shadow: 0 4px 12px rgba(81, 150, 107, 0.3) ;
+   
+
+}
+
+.note-info h1{
+    color: #001931;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.note-info p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+.red-circel{
+    background: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45.5px;
+}
+
+.red-circel:hover{
+    background: #30B868;
+}
+
+.note-card h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.note-card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 21.5px;
+    margin-top: 16px;
+    line-height: 20px;
+}
+
+/* 3rd section The solution section */
+
+.solution{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+    margin: 120px;
+    gap: 80px;
+}
+
+
+.green-solution{
+    font-size: 16px;
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.solution-container h2{
+    font-size: 48px;
+    color: #001931;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.solution-container >p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+
+.solution-info p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 6px;
+
+}
+
+
+/* 4th Section Ready To Think More Clearly? */
+.ready-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    margin: 120px;
+
+}
+.ready-info h1{
+    color:#001931;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ready-info p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+ .free-text{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+
+ }
+
+ /* last Section Footer */
+.footer-section{
+    width: 100%;
+    padding: 60px 0 30px 0;
+    background: #001931;
+ }
+
+ .footer-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 120px 60px 120px;
+    padding-bottom: 30px;
+ }
+
+ .footer-reserved{
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+ }
+
+hr {
+    border: 0;
+    border-top: 1px solid #2D3748;
+    margin: 0 120px;
+}
+
+
+.social-icons{
+    color: #E5E7EB;
+
+}
+.social-icons img{
+    margin-right: 16px;
+}
+.social-icons img:hover{
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 255, 98, 0.5) ;
+   
+}
+
+.social-icons p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
