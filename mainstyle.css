@@ -47,8 +47,7 @@ nav a{
 }
 
 nav ul li a:hover {
-    color: #469165;
-    opacity: 0.8;
+    color: #3c9963;
     font-weight: 700;  
 }
 
@@ -199,7 +198,7 @@ nav ul li a:hover {
 .note-card:hover{
     border: 2px solid #469165;
     background: #e9fdf2;
-    box-shadow: 0 4px 12px rgba(81, 150, 107, 0.3) ;
+    box-shadow: 0 4px 12px rgba(0, 255, 98, 0.5);
    
 
 }
@@ -377,7 +376,7 @@ hr {
 }
 .social-icons img:hover{
     border-radius: 50%;
-    box-shadow: 0 4px 12px rgba(0, 255, 98, 0.5) ;
+    box-shadow: 0 4px 12px rgba(0, 255, 98, 0.5);
    
 }
 
@@ -386,3 +385,5 @@ hr {
     font-weight: 500;
     margin-bottom: 16px;
 }
+
+
