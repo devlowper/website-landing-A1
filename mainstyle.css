@@ -144,7 +144,7 @@ nav ul li a:hover {
 }
 .header-info p{
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     color: rgb(255, 255, 255);
     line-height: 24px;
     text-align: center ;
@@ -219,19 +219,18 @@ nav ul li a:hover {
     font-weight: 400;
     margin-bottom: 44px;
 }
-.red-circel{
+.red-circle{
     background: #F95555;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    margin: 0 auto 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 45.5px;
+    margin: 45.5px auto 15px;
 }
 
-.red-circel:hover{
+.red-circle:hover{
     background: #30B868;
 }
 
