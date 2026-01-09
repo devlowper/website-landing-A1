@@ -198,7 +198,7 @@ nav ul li a:hover {
 .note-card:hover{
     border: 2px solid #469165;
     background: #e9fdf2;
-    box-shadow: 0 4px 12px rgba(0, 255, 98, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 255, 98, 0.096);
    
 
 }
